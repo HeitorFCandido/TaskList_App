@@ -80,7 +80,7 @@ public class TaskDAO implements ITaskDAO {
     public List<Task> list() {
         List<Task> taskList = new ArrayList<>();
 
-        String sqlRecover = "SELECT * FROM " + DbHelper.TABLE_TASK + " ;"; // ORDER BY finish
+        String sqlRecover = "SELECT * FROM " + DbHelper.TABLE_TASK + " ORDER BY finish ;"; // ORDER BY finish
         Cursor cursor = read.rawQuery(sqlRecover, null);
 
         while (cursor.moveToNext()) {
