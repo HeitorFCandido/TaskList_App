@@ -2,7 +2,7 @@
 This is a task management application developed with Java. It allows users to create, edit, and delete tasks, as well as mark tasks as completed. The application offers an easy-to-use interface and provides an overview of pending and completed tasks. Additionally, it offers support for light mode and dark mode, allowing users to choose the best visual experience for them.
 
 # Preview
-![App print](https://prnt.sc/JEbXcZLHrEe7)
+![App print](./actives/preview.png)
 
 # Features
 - Add, edit, and delete tasks
