@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TaskList" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/clPrimary</item>
+        <item name="colorPrimaryVariant">@color/clPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/clPrimary</item>
+        <item name="colorSecondaryVariant">@color/clDark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:navigationBarColor">?attr/colorPrimary</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+
+    </style>
+
+    <style name="fab">
+        <item name="android:backgroundTint">@color/clDark</item>
+    </style>
+    <style name="background">
+        <item name="android:background">@color/backgroundDark</item>
+    </style>
+
+    <style name="backgroundDialog">
+        <item name="android:backgroundTint">#303030</item>
+    </style>
+
+    <style name="inputText">
+        <item name="android:background">@drawable/custom_input_dark</item>
+        <item name="android:textColor">@color/textInputTextDark</item>
+        <item name="android:textColorHint">@color/hintInputTextDark</item>
+    </style>
+
+    <style name="button">
+        <item name="android:backgroundTint">@color/clDark</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="checkboxTask">
+        <item name="android:button">@drawable/custom_checkbox_dark</item>
+    </style>
+
+    <style name="text">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="cardViewTask">
+        <item name="android:backgroundTint">@color/bgCardView</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+</resources>
